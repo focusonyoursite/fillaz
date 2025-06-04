@@ -130,7 +130,7 @@
 					</Button>
 				</a>
 
-				<a data-sveltekit-preload-data href="/services" class="group/bookingsButton w-full">
+                                <a data-sveltekit-preload-data href="/diensten" class="group/bookingsButton w-full">
 					<Button
 						size="lg"
 						variant="outline"

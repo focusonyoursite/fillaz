@@ -154,7 +154,7 @@
 
 		<div class="my-5">
 			<div class="flex flex-col items-center gap-2 md:flex-row">
-				<a href="/results" class="w-full md:w-fit">
+                                <a href="/galerij" class="w-full md:w-fit">
 					<Button size="lg" variant="default" class="w-full text-xl uppercase md:w-fit"
 						>Patient Gallery</Button
 					>

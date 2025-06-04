@@ -51,9 +51,9 @@
 			See the stunning results of our treatments with real before and after photos from our clients.
 		</div>
 
-		<a href="/results">
-			<Button variant="default" size="lg" class="w-fit uppercase">View All Before & Afters</Button>
-		</a>
+                <a href="/galerij">
+                        <Button variant="default" size="lg" class="w-fit uppercase">View All Before & Afters</Button>
+                </a>
 	</div>
 
 	<Carousel />

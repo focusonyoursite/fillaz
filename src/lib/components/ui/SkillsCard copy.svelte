@@ -68,7 +68,7 @@
 			</div>
 
 			<div>
-				<a href="/results">
+                                <a href="/galerij">
 					<Button size="lg" class="group/resultsButton flex items-center gap-2 text-xl">
 						<div>See Results</div>
 						<Icon

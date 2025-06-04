@@ -28,29 +28,29 @@
 </script>
 
 <svelte:head>
-	<title>Before & Afters : {companyInfo.name}</title>
-	<meta
-		name="description"
-		content={`${companyInfo.name} "Before & After" results from our clients.`}
-	/>
+        <title>Voor & Na : {companyInfo.name}</title>
+        <meta
+                name="description"
+                content={`Voor- en naresultaten van onze cliënten bij ${companyInfo.name}.`}
+        />
 </svelte:head>
 
 <div>
-	<Button on:click={goBack} variant="outline" class="flex items-center gap-2">
-		<Icon icon="akar-icons:arrow-left" class="" />
-		<div class="uppercase">Back</div>
-	</Button>
-	<div class="animate-title mt-5 flex items-center gap-5 md:mt-10">
-		<div class="text-5xl font-bold uppercase">gallery</div>
+        <Button on:click={goBack} variant="outline" class="flex items-center gap-2">
+                <Icon icon="akar-icons:arrow-left" class="" />
+                <div class="uppercase">Terug</div>
+        </Button>
+        <div class="animate-title mt-5 flex items-center gap-5 md:mt-10">
+                <div class="text-5xl font-bold uppercase">galerij</div>
 		<!-- <Icon icon="ri:gallery-view-2" class="text-3xl md:text-5xl" /> -->
 	</div>
 
-	<div class="animate-item mt-5 text-xl text-muted-foreground">
-		<span class="font-semibold text-foreground">Results that speak for themselves.</span>
-		Take a look at some of our clients' before and after results. Feel free to
-		<a class="text-foreground underline" href="/contact">contact us</a> with any questions about specific
-		treatments.
-	</div>
+        <div class="animate-item mt-5 text-xl text-muted-foreground">
+                <span class="font-semibold text-foreground">Resultaten die voor zichzelf spreken.</span>
+                Bekijk enkele voor- en naresultaten van onze cliënten. Neem gerust
+                <a class="text-foreground underline" href="/contact">contact met ons op</a> als je vragen hebt over specifieke
+                behandelingen.
+        </div>
 
 	<div
 		class="animate-item my-5 grid grid-cols-2 gap-2 md:mt-10 md:grid-cols-3 md:gap-5 lg:grid-cols-4"

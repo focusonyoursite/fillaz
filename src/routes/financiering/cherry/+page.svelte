@@ -57,10 +57,10 @@
 </svelte:head>
 
 <div class="flex items-center justify-between gap-5">
-	<Button href="/financing" variant="outline" class="flex items-center gap-2">
-		<Icon icon="akar-icons:arrow-left" class="" />
-		<div class="uppercase">Back</div>
-	</Button>
+        <Button href="/financiering" variant="outline" class="flex items-center gap-2">
+                <Icon icon="akar-icons:arrow-left" class="" />
+                <div class="uppercase">Terug</div>
+        </Button>
 </div>
 
 <div class="animate-item relative z-0 mb-20 mt-10 overflow-hidden">

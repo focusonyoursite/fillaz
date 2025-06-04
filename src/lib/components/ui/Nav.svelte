@@ -82,28 +82,29 @@
                                                 ? 'underline decoration-1 underline-offset-8'
                                                 : ''}>over ons</a
 				>
-				<a
-					data-sveltekit-preload-data
-                                        href="/services"
-                                        class={$currentRoute.startsWith('/service')
+                                <a
+                                        data-sveltekit-preload-data
+                                        href="/diensten"
+                                        class={$currentRoute.startsWith('/service') ||
+                                                $currentRoute.startsWith('/diensten')
                                                 ? 'underline decoration-1 underline-offset-8'
                                                 : ''}>diensten</a
-				>
-				<a
-					data-sveltekit-preload-data
-                                        href="/results"
-                                        class={$currentRoute.startsWith('/results')
+                                >
+                                <a
+                                        data-sveltekit-preload-data
+                                        href="/galerij"
+                                        class={$currentRoute.startsWith('/galerij')
                                                 ? 'underline decoration-1 underline-offset-8'
                                                 : ''}>galerij</a
-				>
+                                >
 
-				<a
-					data-sveltekit-preload-data
-                                        href="/financing"
-                                        class={$currentRoute.startsWith('/financing')
+                                <a
+                                        data-sveltekit-preload-data
+                                        href="/financiering"
+                                        class={$currentRoute.startsWith('/financiering')
                                                 ? 'underline decoration-1 underline-offset-8'
                                                 : ''}>financiering</a
-				>
+                                >
 
 				<a
 					data-sveltekit-preload-data
@@ -152,13 +153,13 @@
 
                         <a data-sveltekit-preload-data href="/about" class="" on:click={navigateAndCloseMenu}>over ons</a
                         >
-                        <a data-sveltekit-preload-data href="/services" class="" on:click={navigateAndCloseMenu}
+                        <a data-sveltekit-preload-data href="/diensten" class="" on:click={navigateAndCloseMenu}
                                 >diensten</a
                         >
-                        <a data-sveltekit-preload-data href="/results" class="" on:click={navigateAndCloseMenu}
+                        <a data-sveltekit-preload-data href="/galerij" class="" on:click={navigateAndCloseMenu}
                                 >galerij</a
                         >
-                        <a data-sveltekit-preload-data href="/financing" class="" on:click={navigateAndCloseMenu}
+                        <a data-sveltekit-preload-data href="/financiering" class="" on:click={navigateAndCloseMenu}
                                 >financiering</a
                         >
                         <a data-sveltekit-preload-data href="/contact" class="" on:click={navigateAndCloseMenu}
