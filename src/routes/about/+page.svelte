@@ -175,21 +175,22 @@
 
 		<div class="animate-item mt-5 flex flex-col md:flex-row md:items-start">
 			<div class=" flex-1 p-2 text-xl font-light">
-				<p>
-					Jitka is a certified nurse injector and registered nurse, licensed in both the USA and
-					Europe. Originally from the Czech Republic, Jitka began her nursing career at 18, working
-					on a med-surg floor for six years before moving to the United States. Her passion for
-					aesthetics blossomed while working under a top Cosmetic Dermatologist and Plastic Surgeon
-					in Beverly Hills. She has since honed her skills with numerous certifications, including
-					Juvederm, Restylane, Botox, and Dysport.
-				</p>
+                                <p>
+                                        Jitka is een gecertificeerde verpleegkundige injector en geregistreerde verpleegkundige, een
+                                        vergunning in zowel de VS als Europa. Oorspronkelijk uit Tsjechië begon Jitka haar
+                                        verpleegcarrière op 18-jarige leeftijd en werkte ze zes jaar lang op een medisch-surgische
+                                        afdeling voordat ze naar de Verenigde Staten verhuisde. Haar passie voor esthetiek bloeide
+                                        op tijdens het werk onder een top cosmetisch dermatoloog en plastisch chirurg in Beverly
+                                        Hills. Sindsdien heeft ze haar vaardigheden aangescherpt met talloze certificeringen,
+                                        waaronder Juvederm, Restylane, Botox en Dysport.
+                                </p>
 
-				<p class="mt-5">
-					Jitka excels in blending fillers with skincare rituals, believing in their harmonious
-					pairing to maintain youthful and authentic skin. She is dedicated to recognizing and
-					enhancing each person's unique beauty, creating individualized plans to achieve a look
-					that best suits their natural features.
-				</p>
+                                <p class="mt-5">
+                                        Jitka blinkt uit in het combineren van fillers met huidverzorgingsrituelen en gelooft dat
+                                        deze perfecte combinatie helpt om een jeugdige en natuurlijke huid te behouden. Ze zet zich
+                                        in om ieders unieke schoonheid te zien en te versterken door persoonlijke plannen te maken
+                                        voor een look die het beste bij je eigen kenmerken past.
+                                </p>
 			</div>
 		</div>
 	</div>
@@ -211,7 +212,7 @@
 			></enhanced:img>
 
 			<div class="flex-1 text-xl text-muted-foreground md:mt-2">
-				Based in Long Beach, California.
+                                Gevestigd in Long Beach, Californië.
 			</div>
 		</div>
 
@@ -223,19 +224,19 @@
 		></enhanced:img>
 		<div class="mt-5 flex flex-col md:flex-row md:items-start">
 			<div class="flex-1 p-2 text-xl font-light">
-				<p>
-					Discover unparalleled healthcare with Dr. Reynolds, a seasoned Board Certified Family
-					Medicine Specialist based in vibrant Long Beach, California. With over 29 years of
-					dedicated practice, Dr. Reynolds brings a wealth of experience and expertise to his
-					patients.
-				</p>
+                                <p>
+                                        Ontdek ongeëvenaarde gezondheidszorg met Dr. Reynolds, een doorgewinterde board
+                                        gecertificeerde specialist in huisartsgeneeskunde in het bruisende Long Beach, Californië.
+                                        Met meer dan 29 jaar toewijding brengt Dr. Reynolds een schat aan ervaring en expertise
+                                        naar zijn patiënten.
+                                </p>
 
-				<p class="mt-5">
-					As the principal investigator at CNS (Collaborative Neuroscience Research) since 2010, Dr.
-					Reynolds leads pioneering trials in Long Beach. He also serves as an Associate Professor
-					at the esteemed University of Irvine College of Medicine, shaping future medical
-					professionals.
-				</p>
+                                <p class="mt-5">
+                                        Als hoofdonderzoeker bij CNS (Collaborative Neuroscience Research) sinds 2010 leidt Dr.
+                                        Reynolds baanbrekende onderzoeken in Long Beach. Daarnaast is hij universitair hoofddocent
+                                        aan de gerenommeerde University of Irvine College of Medicine, waar hij toekomstige
+                                        medische professionals opleidt.
+                                </p>
 			</div>
 		</div>
 	</div>
@@ -247,10 +248,10 @@
 
 <!-- BOOKING -->
 <div class="booking-section my-40 flex w-full flex-col items-center p-2 md:p-5">
-	<div class="mb-5 text-5xl font-bold md:text-7xl">Booking</div>
+        <div class="mb-5 text-5xl font-bold md:text-7xl">Boeken</div>
 	<a href={PUBLIC_BOOKING_LINK}>
 		<Button size="lg" variant="default" class="flex w-full items-center gap-2 text-xl md:w-fit">
-			<div class="uppercase">Schedule a Consultation</div>
+                        <div class="uppercase">Plan een consult</div>
 			<Icon icon="akar-icons:arrow-right" class="h-5 w-5" />
 		</Button>
 	</a>
