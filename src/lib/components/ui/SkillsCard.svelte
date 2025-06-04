@@ -203,7 +203,7 @@
 				</li>
 			</ul>
 			<div class="flex items-center gap-2">
-				<a data-sveltekit-preload-data href="/services">
+                                <a data-sveltekit-preload-data href="/diensten">
 					<Button
 						size="lg"
 						variant="default"
@@ -273,7 +273,7 @@
 				rigorous scientific research and proven methodologies.
 			</div>
 			<div class="flex items-center gap-2">
-				<a data-sveltekit-preload-data href="/results">
+                                <a data-sveltekit-preload-data href="/galerij">
 					<Button
 						size="lg"
 						variant="default"

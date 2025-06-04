@@ -55,10 +55,10 @@
 </svelte:head>
 
 <div class="flex items-center justify-between gap-4">
-	<Button on:click={goBack} variant="outline" class="flex items-center gap-2">
-		<Icon icon="akar-icons:arrow-left" />
-		<div class="uppercase">Back</div>
-	</Button>
+        <Button on:click={goBack} variant="outline" class="flex items-center gap-2">
+                <Icon icon="akar-icons:arrow-left" />
+                <div class="uppercase">Terug</div>
+        </Button>
 </div>
 
 {#if category}

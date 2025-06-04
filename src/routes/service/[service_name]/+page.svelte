@@ -30,10 +30,10 @@
 </svelte:head>
 
 <div class="flex items-center justify-between gap-4">
-	<Button on:click={goBack} variant="outline" class="flex items-center gap-2">
-		<Icon icon="akar-icons:arrow-left" />
-		<div class="uppercase">Back</div>
-	</Button>
+        <Button on:click={goBack} variant="outline" class="flex items-center gap-2">
+                <Icon icon="akar-icons:arrow-left" />
+                <div class="uppercase">Terug</div>
+        </Button>
 </div>
 
 <div class="animate-item pb-20">
@@ -50,7 +50,7 @@
 
 					<div class="flex items-center gap-2">
 						<Button class="w-full uppercase" href={PUBLIC_BOOKING_LINK}>book appointment</Button>
-						<Button variant="outline" class="w-full uppercase" href={`/results`}>gallery</Button>
+                                                <Button variant="outline" class="w-full uppercase" href={`/galerij`}>galerij</Button>
 					</div>
 
 					<!-- 

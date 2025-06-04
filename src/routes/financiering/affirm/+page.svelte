@@ -15,10 +15,10 @@
 	<meta name="checkout-affirm" content={`${companyInfo.name} checkout.`} />
 </svelte:head>
 <div class="flex items-center justify-between gap-5">
-	<Button href="/financing" variant="outline" class="flex items-center gap-2">
-		<Icon icon="akar-icons:arrow-left" class="" />
-		<div class="uppercase">Back</div>
-	</Button>
+        <Button href="/financiering" variant="outline" class="flex items-center gap-2">
+                <Icon icon="akar-icons:arrow-left" class="" />
+                <div class="uppercase">Terug</div>
+        </Button>
 </div>
 <div class="">
 	<div
@@ -38,6 +38,6 @@
 		target="_blank"
 		rel="noopener"
 	>
-		View on Canva
+                Bekijk op Canva
 	</a>
 </div>

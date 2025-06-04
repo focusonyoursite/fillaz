@@ -19,29 +19,28 @@
 </script>
 
 <svelte:head>
-	<title>Services : {companyInfo.name}</title>
-	<meta name="description" content={`${companyInfo.name} services menu.`} />
+        <title>Diensten : {companyInfo.name}</title>
+        <meta name="description" content={`${companyInfo.name} dienstenmenu.`} />
 </svelte:head>
 
 <div>
 	<div class="flex items-center justify-between gap-5">
-		<Button on:click={goBack} variant="outline" class="flex items-center gap-2">
-			<Icon icon="akar-icons:arrow-left" class="" />
-			<div class="uppercase">Back</div>
-		</Button>
+                <Button on:click={goBack} variant="outline" class="flex items-center gap-2">
+                        <Icon icon="akar-icons:arrow-left" class="" />
+                        <div class="uppercase">Terug</div>
+                </Button>
 
-		<Input bind:value={searchFiler} placeholder="Filter Category" class="w-full max-w-lg" />
+                <Input bind:value={searchFiler} placeholder="Filter categorie" class="w-full max-w-lg" />
 	</div>
 	<div class="animate-title mt-5 flex items-center gap-5 md:mt-10">
-		<div class="text-5xl font-bold uppercase">services</div>
+                <div class="text-5xl font-bold uppercase">diensten</div>
 		<!-- <Icon icon="ri:gallery-view-2" class="text-3xl md:text-5xl" /> -->
 	</div>
 
-	<div class="animate-item mt-5 text-xl text-muted-foreground">
-		<span class="font-semibold text-foreground">Results, fast.</span>
-		We specialize in provising a variety of safe, proven, and effective services to help you look and
-		feel your best.
-	</div>
+        <div class="animate-item mt-5 text-xl text-muted-foreground">
+                <span class="font-semibold text-foreground">Resultaat, snel.</span>
+                Wij bieden een verscheidenheid aan veilige, bewezen en effectieve behandelingen om je er op je best uit te laten zien en voelen.
+        </div>
 
 	<div
 		class="animate-results my-5 mb-20 grid gap-5 md:mt-10 md:grid-cols-2 md:gap-5 lg:grid-cols-2"
@@ -52,7 +51,7 @@
 					<a
 						data-sveltekit-preload-data
 						class="animate-item"
-						href={`${category.coming_soon === false ? `/services/${slugify(category.name)}` : '/coming-soon'}`}
+                                                href={`${category.coming_soon === false ? `/diensten/${slugify(category.name)}` : '/coming-soon'}`}
 					>
 						<CategoryCard
 							isNew={category.isNew}
@@ -69,7 +68,7 @@
 		{:else}
 			{#each serviceCategories as category}
 				{#if category.name.toLowerCase().includes(searchFiler.toLowerCase())}
-					<a data-sveltekit-preload-data href={`/services/${slugify(category.name)}`}>
+                                        <a data-sveltekit-preload-data href={`/diensten/${slugify(category.name)}`}>
 						<CategoryCard
 							isNew={category.isNew}
 							name={category.name}
