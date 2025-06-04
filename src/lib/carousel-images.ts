@@ -33,181 +33,181 @@ export const results = [
 	{
 		image: result1,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result2,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result3,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result4,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result5,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result6,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result7,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result8,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result9,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result10,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result11,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result12,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result13,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result14,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result15,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result16,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result17,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result18,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result19,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result20,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result21,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result22,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result23,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result24,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result25,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result26,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result27,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result28,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result29,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	},
 	{
 		image: result30,
 		title: 'carousel image',
-		url: 'https://instagram.com/beautybyjitka',
+		url: 'https://instagram.com/fillaz',
 		description: 'carousel image'
 	}
 ];

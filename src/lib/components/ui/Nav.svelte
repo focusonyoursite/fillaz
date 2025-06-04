@@ -77,47 +77,47 @@
 			<div class="hidden items-center gap-5 text-lg md:flex">
 				<a
 					data-sveltekit-preload-data
-					href="/about"
-					class={$currentRoute.startsWith('/about')
-						? 'underline decoration-1 underline-offset-8'
-						: ''}>about</a
+                                        href="/about"
+                                        class={$currentRoute.startsWith('/about')
+                                                ? 'underline decoration-1 underline-offset-8'
+                                                : ''}>over ons</a
 				>
 				<a
 					data-sveltekit-preload-data
-					href="/services"
-					class={$currentRoute.startsWith('/service')
-						? 'underline decoration-1 underline-offset-8'
-						: ''}>services</a
+                                        href="/services"
+                                        class={$currentRoute.startsWith('/service')
+                                                ? 'underline decoration-1 underline-offset-8'
+                                                : ''}>diensten</a
 				>
 				<a
 					data-sveltekit-preload-data
-					href="/results"
-					class={$currentRoute.startsWith('/results')
-						? 'underline decoration-1 underline-offset-8'
-						: ''}>gallery</a
-				>
-
-				<a
-					data-sveltekit-preload-data
-					href="/financing"
-					class={$currentRoute.startsWith('/financing')
-						? 'underline decoration-1 underline-offset-8'
-						: ''}>financing</a
+                                        href="/results"
+                                        class={$currentRoute.startsWith('/results')
+                                                ? 'underline decoration-1 underline-offset-8'
+                                                : ''}>galerij</a
 				>
 
 				<a
 					data-sveltekit-preload-data
-					href="/contact"
-					class={$currentRoute.startsWith('/contact')
-						? 'underline decoration-1 underline-offset-8'
-						: ''}>contact</a
+                                        href="/financing"
+                                        class={$currentRoute.startsWith('/financing')
+                                                ? 'underline decoration-1 underline-offset-8'
+                                                : ''}>financiering</a
+				>
+
+				<a
+					data-sveltekit-preload-data
+                                        href="/contact"
+                                        class={$currentRoute.startsWith('/contact')
+                                                ? 'underline decoration-1 underline-offset-8'
+                                                : ''}>contact</a
 				>
 			</div>
 		</div>
 
 		<div class="buttons flex items-center gap-2">
 			<a href={PUBLIC_BOOKING_LINK}>
-				<Button class="uppercase" variant="default">book appointment</Button>
+                                <Button class="uppercase" variant="default">afspraak maken</Button>
 			</a>
 
 			<ThemeToggle />
@@ -148,22 +148,22 @@
 				<img src={logo} alt="Jitka" class="h-16 w-16 transition-all duration-300" />
 			</a>
 
-			<a href="/" class="md:hidden" on:click={navigateAndCloseMenu}>home</a>
+                        <a href="/" class="md:hidden" on:click={navigateAndCloseMenu}>home</a>
 
-			<a data-sveltekit-preload-data href="/about" class="" on:click={navigateAndCloseMenu}>about</a
-			>
-			<a data-sveltekit-preload-data href="/services" class="" on:click={navigateAndCloseMenu}
-				>services</a
-			>
-			<a data-sveltekit-preload-data href="/results" class="" on:click={navigateAndCloseMenu}
-				>gallery</a
-			>
-			<a data-sveltekit-preload-data href="/financing" class="" on:click={navigateAndCloseMenu}
-				>financing</a
-			>
-			<a data-sveltekit-preload-data href="/contact" class="" on:click={navigateAndCloseMenu}
-				>contact</a
-			>
+                        <a data-sveltekit-preload-data href="/about" class="" on:click={navigateAndCloseMenu}>over ons</a
+                        >
+                        <a data-sveltekit-preload-data href="/services" class="" on:click={navigateAndCloseMenu}
+                                >diensten</a
+                        >
+                        <a data-sveltekit-preload-data href="/results" class="" on:click={navigateAndCloseMenu}
+                                >galerij</a
+                        >
+                        <a data-sveltekit-preload-data href="/financing" class="" on:click={navigateAndCloseMenu}
+                                >financiering</a
+                        >
+                        <a data-sveltekit-preload-data href="/contact" class="" on:click={navigateAndCloseMenu}
+                                >contact</a
+                        >
 		</div>
 
 		<Button

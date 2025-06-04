@@ -45,8 +45,8 @@
 			does business in the State of California.
 		</li>
 		<li>
-			<strong>"Company"</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
-			refers to Beauty By Jitka.
+                        <strong>"Company"</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
+                        refers to Fillaz.
 		</li>
 		<li><strong>"Country"</strong> refers to the United States of America.</li>
 		<li>
@@ -99,10 +99,10 @@
 			of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
 		</li>
 		<li>
-			<strong>"Website"</strong> refers to Beauty By Jitka, accessible from
-			<a href="https://beautybyjitka.com" class="text-blue-500 hover:underline"
-				>https://beautybyjitka.com</a
-			>.
+                        <strong>"Website"</strong> refers to Fillaz, accessible from
+                        <a href="https://fillaz.nl" class="text-blue-500 hover:underline"
+                                >https://fillaz.nl</a
+                        >.
 		</li>
 		<li>
 			<strong>"You"</strong> means the individual accessing or using the Service, or the company, or

@@ -102,7 +102,7 @@
 					<div
 						class="text-5xl font-bold uppercase tracking-tight transition-transform lg:text-[3.75rem]"
 					>
-						Welcome to {companyInfo.name}
+                                                Welkom bij {companyInfo.name}
 					</div>
 					<div class=" mt-2 text-sm text-muted-foreground">An S.Reynolds Medical Corporation</div>
 				</div>
@@ -114,15 +114,15 @@
 				<div
 					class="w-full max-w-sm text-2xl font-thin transition-transform md:max-w-md md:text-3xl lg:max-w-md"
 				>
-					Offering a comprehensive range of injection treatments tailored to align with your
-					individual objectives, preferences, and personal style.
+                                        Wij bieden een uitgebreid assortiment injectiebehandelingen die aansluiten bij jouw
+                                        persoonlijke doelen, voorkeuren en stijl.
 				</div>
 			</div>
 
 			<div class="animate-item mx-auto mt-10 flex w-full max-w-sm items-center gap-2 md:max-w-lg">
 				<a href={PUBLIC_BOOKING_LINK} class="group/bookingsButton w-full">
 					<Button size="lg" class="flex w-full items-center justify-between gap-2 text-lg">
-						<div class="uppercase">Booking</div>
+                                                <div class="uppercase">Afspraak</div>
 						<Icon
 							icon="material-symbols:calendar-clock-outline"
 							class="h-7 w-7 transition-transform duration-300 lg:group-hover/bookingsButton:translate-x-1"
@@ -136,7 +136,7 @@
 						variant="outline"
 						class="flex w-full items-center justify-between gap-2 text-lg"
 					>
-						<div class="uppercase">services</div>
+                                                <div class="uppercase">diensten</div>
 						<Icon
 							icon="akar-icons:arrow-right"
 							class="h-7 w-7 transition-transform duration-300 lg:group-hover/bookingsButton:translate-x-1"

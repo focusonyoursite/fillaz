@@ -15,24 +15,24 @@ import categoryNeurotoxins from '$lib/assets/images/results/result-30.png';
 import categoryDermalFillers from '$lib/assets/images/results/result-29.png';
 
 export const companyInfo = {
-	name: 'Beauty by Jitka',
-	phone: '9499935222',
-	email: 'info@beautybyjitka.com',
-	url: 'https://beautybyjitka.com',
+        name: 'Fillaz',
+        phone: '9499935222',
+        email: 'info@fillaz.nl',
+        url: 'https://fillaz.nl',
 
 	socials: {
-		facebook: {
-			username: 'beautybyjitka',
-			url: 'https://www.facebook.com/beautybyjitka'
-		},
-		tiktok: {
-			username: '@beautybyjitka',
-			url: 'https://www.tiktok.com/@beautybyjitka?lang=en'
-		},
-		instagram: {
-			username: '@beautybyjitka',
-			url: 'https://instagram.com/beautybyjitka'
-		}
+                facebook: {
+                        username: 'fillaz',
+                        url: 'https://www.facebook.com/fillaz'
+                },
+                tiktok: {
+                        username: '@fillaz',
+                        url: 'https://www.tiktok.com/@fillaz'
+                },
+                instagram: {
+                        username: '@fillaz',
+                        url: 'https://instagram.com/fillaz'
+                }
 	},
 
 	locations: {

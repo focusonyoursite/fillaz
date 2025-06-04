@@ -259,7 +259,7 @@
 			class="absolute bottom-0 right-0 h-[550px] rounded-lg object-cover"
 		></enhanced:img>
 		<div class="z-20 flex w-2/3 flex-col gap-5 p-5">
-			<div class="w-full text-5xl font-bold uppercase drop-shadow">Where Science Meets Beauty</div>
+                        <div class="w-full text-5xl font-bold uppercase drop-shadow">Waar wetenschap schoonheid ontmoet</div>
 		</div>
 	</div>
 

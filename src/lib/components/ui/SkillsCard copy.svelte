@@ -90,9 +90,9 @@
 			<div class="flex flex-col gap-2">
 				<div class="text-2xl font-bold">Committed to Safety</div>
 				<div class="italic">
-					"Safety is the cornerstone of Beauty By Jitka. As a fully-trained professional operating
-					in a state-of-the-art facility, I provide a safe, comfortable, and exceptional
-					experience."
+                                       "Veiligheid staat voorop bij Fillaz. Als volledig opgeleide professional in een moderne omgeving
+                                        bied ik een veilige, comfortabele en uitzonderlijke
+                                        ervaring."
 				</div>
 			</div>
 

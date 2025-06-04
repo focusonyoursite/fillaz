@@ -4,17 +4,17 @@
 </script>
 
 <svelte:head>
-	<title>Terms of Service</title>
+	<title>Voorwaarden van services</title>
 	<meta name="description" content="Terms of Service for our website." />
 </svelte:head>
 
 <main class="mx-auto max-w-4xl p-8">
-	<h1 class="mb-4 text-3xl font-bold">Terms of Service</h1>
+	<h1 class="mb-4 text-3xl font-bold">Voorwaarden van services</h1>
 
-	<p class="mb-4">Last updated: Mon Jul 15, 2024.</p>
+	<p class="mb-4">Laatst bijgewerkt: Mon 15 juli 2024.</p>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">1. Introduction</h2>
+		<h2 class="mb-2 text-2xl font-semibold">1. Inleiding</h2>
 		<p>
 			Welcome to {companyInfo.name}! These terms of service govern your use of our site. By
 			accessing or using our site, you agree to comply with these terms.
@@ -22,53 +22,41 @@
 	</section>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">2. Information We Collect</h2>
-		<p>
-			We collect personal information that you provide to us when you fill out our form, including
-			your name, email address, phone number, and message.
-		</p>
+		<h2 class="mb-2 text-2xl font-semibold">2. Informatie die we verzamelen</h2>
+		<p>We verzamelen persoonlijke informatie die u ons verstrekt wanneer u ons formulier invult, inclusief
+Uw naam, e -mailadres, telefoonnummer en bericht.</p>
 	</section>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">3. Use of Information</h2>
-		<p>
-			We use the information we collect to respond to your inquiries, provide services, and improve
-			our website. We may also use your information to contact you with updates and promotional
-			materials.
-		</p>
+		<h2 class="mb-2 text-2xl font-semibold">3. Gebruik van informatie</h2>
+		<p>We gebruiken de informatie die we verzamelen om op uw vragen te reageren, diensten te bieden en te verbeteren
+onze website.We kunnen uw informatie ook gebruiken om contact met u op te nemen met updates en promotie
+materialen.</p>
 	</section>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">4. Sharing of Information</h2>
-		<p>
-			We do not share your personal information with third parties except as necessary to provide
-			our services or as required by law.
-		</p>
+		<h2 class="mb-2 text-2xl font-semibold">4. Informatie delen</h2>
+		<p>We delen uw persoonlijke informatie niet met derden, behalve indien nodig om te voorzien
+onze diensten of zoals wettelijk vereist.</p>
 	</section>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">5. Security</h2>
-		<p>
-			We take reasonable measures to protect the information you provide to us from unauthorized
-			access and use.
-		</p>
+		<h2 class="mb-2 text-2xl font-semibold">5. Beveiliging</h2>
+		<p>We nemen redelijke maatregelen om de informatie die u ons verstrekt te beschermen tegen ongeautoriseerd
+toegang en gebruik.</p>
 	</section>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">6. Changes to These Terms</h2>
-		<p>
-			We may update these terms from time to time. We will notify you of any changes by posting the
-			new terms on our site.
-		</p>
+		<h2 class="mb-2 text-2xl font-semibold">6. Wijzigingen in deze voorwaarden</h2>
+		<p>We kunnen deze voorwaarden van tijd tot tijd bijwerken.Wij zullen u op de hoogte stellen van wijzigingen door de
+Nieuwe voorwaarden op onze site.</p>
 	</section>
 
 	<section class="mt-8">
-		<h2 class="mb-2 text-2xl font-semibold">7. Contact Us</h2>
-		<p>
-			If you have any questions about these terms, please contact us at <a
+		<h2 class="mb-2 text-2xl font-semibold">7. Neem contact met ons op</h2>
+		<p>Als u vragen heeft over deze voorwaarden, neem dan contact met ons op via<a
 				href={`mailto:${companyInfo.email}`}
 				class="underline">{companyInfo.email}</a
-			>.
-		</p>
+			>.</p>
 	</section>
 </main>
