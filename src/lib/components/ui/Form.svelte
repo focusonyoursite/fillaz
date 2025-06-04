@@ -114,10 +114,10 @@
 					class="contact-title-icon text-5xl md:text-7xl"
 				/>
 			</div>
-			<div class="text-2xl font-thin">
-				Have a question, or would like to schedule a consultation or appointment? Fill out the form,
-				we'll get back to you shortly.
-			</div>
+                        <div class="text-2xl font-thin">
+                                Heb je een vraag of wil je een consult of afspraak plannen? Vul het formulier in, we nemen snel
+                                contact met je op.
+                        </div>
 
 			<!--
 
@@ -164,14 +164,14 @@
 		<div class="mb-2 flex items-center gap-2 md:gap-5">
 			<Form.Field {form} name="firstName" class="w-full">
 				<Form.Control let:attrs>
-					<Form.Label>First Name</Form.Label>
+                                        <Form.Label>Voornaam</Form.Label>
 					<Input {...attrs} bind:value={$formData.firstName} />
 				</Form.Control>
 			</Form.Field>
 
 			<Form.Field {form} name="lastName" class="w-full">
 				<Form.Control let:attrs>
-					<Form.Label>Last Name</Form.Label>
+                                        <Form.Label>Achternaam</Form.Label>
 					<Input {...attrs} bind:value={$formData.lastName} />
 				</Form.Control>
 			</Form.Field>
@@ -188,7 +188,7 @@
 
 		<Form.Field {form} name="email">
 			<Form.Control let:attrs>
-				<Form.Label>Email</Form.Label>
+                                <Form.Label>E-mail</Form.Label>
 				<Input {...attrs} bind:value={$formData.email} />
 			</Form.Control>
 			<Form.FieldErrors />
@@ -196,7 +196,7 @@
 
 		<Form.Field {form} name="phone">
 			<Form.Control let:attrs>
-				<Form.Label>Phone</Form.Label>
+                                <Form.Label>Telefoon</Form.Label>
 				<Input {...attrs} bind:value={$formData.phone} />
 			</Form.Control>
 			<Form.FieldErrors />
@@ -205,7 +205,7 @@
 		<div class="mb-2 flex items-center gap-2 md:gap-5">
 			<Form.Field {form} name="type" class="w-full">
 				<Form.Control let:attrs>
-					<Form.Label>Message Type</Form.Label>
+                                        <Form.Label>Berichttype</Form.Label>
 					<Select.Root
 						name="messageType"
 						selected={selectedType}
@@ -214,18 +214,18 @@
 						}}
 					>
 						<Select.Trigger {...attrs} class="w-full">
-							<Select.Value class="text-lg" placeholder="Select Type" />
+                                                        <Select.Value class="text-lg" placeholder="Kies type" />
 						</Select.Trigger>
 						<Select.Content>
-							<Select.Item class="text-lg" label="Consultation" value="Consultation"
-								>Consultation</Select.Item
-							>
-							<Select.Item class="text-lg" label="Appointment" value="Appointment"
-								>Appointment</Select.Item
-							>
-							<Select.Item class="text-lg" label="General Question" value="General Question"
-								>General Question</Select.Item
-							>
+                                                        <Select.Item class="text-lg" label="Consult" value="Consultation"
+                                                                >Consult</Select.Item
+                                                        >
+                                                        <Select.Item class="text-lg" label="Afspraak" value="Appointment"
+                                                                >Afspraak</Select.Item
+                                                        >
+                                                        <Select.Item class="text-lg" label="Algemene Vraag" value="General Question"
+                                                                >Algemene Vraag</Select.Item
+                                                        >
 						</Select.Content>
 					</Select.Root>
 					<input hidden bind:value={$formData.type} name={attrs.name} />
@@ -234,7 +234,7 @@
 
 			<Form.Field {form} name="location" class="w-full">
 				<Form.Control let:attrs>
-					<Form.Label>Best Location</Form.Label>
+                                        <Form.Label>Beste locatie</Form.Label>
 					<Select.Root
 						name="location"
 						selected={selectedLocation}
@@ -243,7 +243,7 @@
 						}}
 					>
 						<Select.Trigger {...attrs} class="w-full">
-							<Select.Value class="text-lg" placeholder="Select Location" />
+                                                        <Select.Value class="text-lg" placeholder="Kies locatie" />
 						</Select.Trigger>
 						<Select.Content>
 							<Select.Item class="text-lg" label="Orange County" value="Orange County"
@@ -270,7 +270,7 @@
 
 		<Form.Field {form} name="message">
 			<Form.Control let:attrs>
-				<Form.Label>Message</Form.Label>
+                                <Form.Label>Bericht</Form.Label>
 				<Textarea {...attrs} bind:value={$formData.message} />
 			</Form.Control>
 			<Form.FieldErrors />
@@ -278,7 +278,7 @@
 
 		<Form.Button disabled={isSubmitting} size="lg" class="group/sendButton mt-5 w-full">
 			<div class="flex items-center gap-2 text-xl">
-				<div class="uppercase">Send</div>
+                                <div class="uppercase">Verstuur</div>
 				<Icon
 					icon={`${isSubmitting ? 'mingcute:loading-fill' : 'bi:arrow-right'}`}
 					class={`${isSubmitting ? 'animate-spin' : ''} h-7 w-7 transition-transform duration-300 lg:group-hover/sendButton:translate-x-1`}
@@ -296,15 +296,15 @@
 			</p>
 		{/if}
 
-		<p class="mt-5 text-center text-xs text-muted-foreground">
-			By clicking continue, you agree to our
-			<a href="/terms" class="underline underline-offset-4 hover:text-primary">
-				Terms of Service
-			</a>
-			and
-			<a href="/privacy" class="underline underline-offset-4 hover:text-primary">
-				Privacy Policy
-			</a>
+                <p class="mt-5 text-center text-xs text-muted-foreground">
+                        Door op doorgaan te klikken ga je akkoord met onze
+                        <a href="/terms" class="underline underline-offset-4 hover:text-primary">
+                                Voorwaarden van service
+                        </a>
+                        en
+                        <a href="/privacy" class="underline underline-offset-4 hover:text-primary">
+                                Privacybeleid
+                        </a>
 			.
 		</p>
 	</form>
