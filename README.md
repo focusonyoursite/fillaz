@@ -1,7 +1,7 @@
-# ( UNDER CONSTRUCTION )
+# ( IN AANBOUW )
 
-# beauty-by-jitka
+# Fillaz
 
-## Description:
+## Beschrijving:
 
-This is a website for a medical injector. The website is designed to be simple and easy to navigate.
+Dit is een website voor een medische injector. De website is ontworpen om eenvoudig en gebruiksvriendelijk te zijn.
